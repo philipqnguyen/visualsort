@@ -9,19 +9,18 @@
   text-decoration: none;
   padding: 2em;
   background-color: green;
-  margin-left: 30em;
   border-radius: 20%;
 }
 
 .down {
   margin-top: 5em;
+  text-align: center;
 }
 
 .filler {
   display: inline-block;
 }
 
-.author {
+.center {
   text-align: center;
-  margin-left: -1em;
 }

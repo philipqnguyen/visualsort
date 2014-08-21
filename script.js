@@ -36,8 +36,8 @@ $(function(){
       stickHeight[i] = beforeStick;
       stickHeight[i - 1] = afterTemp;
       didSort = true;
+      insertSticks();
     }
-    insertSticks();
 
     if (i === maxSticks - 1 && didSort === false){
       alert('done!');
@@ -56,7 +56,7 @@ $(function(){
   }
 
   function startSort(){
-    window.setTimeout(goSort, 100);
+    window.setTimeout(goSort, 10);
   }
 
   fillStickHeight();
